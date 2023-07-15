@@ -1,0 +1,21 @@
+minimum_cumulusci_version: '3.76.0'
+project:
+    name: fflib-apex-mocks
+    package:
+        name: fflib-apex-mocks
+        api_version: '57.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/fflib-apex-mocks/tests
+            options:
+                outputdir: robot/fflib-apex-mocks/results
+
+    robot_testdoc:
+        options:
+            path: robot/fflib-apex-mocks/tests
+            output: robot/fflib-apex-mocks/doc/fflib-apex-mocks_tests.html
+

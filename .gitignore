@@ -46,3 +46,4 @@ package-lock.json
 
 sfdx-source/group*
 research/
+/fflib-apex-mocks.iml
